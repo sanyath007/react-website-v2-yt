@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { MdFingerprint } from 'react-icons/md';
 import { IconContext } from 'react-icons/lib';
+import Button from '../Button/Button';
 import './Navbar.css';
-import Button from '../Button';
 
 function Navbar() {
   const [click, setClick] = useState(false);
