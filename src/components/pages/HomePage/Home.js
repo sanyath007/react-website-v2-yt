@@ -6,6 +6,7 @@ import {
   homeObjThree,
   homeObjFour
 } from './Data';
+import Pricing from '../../Pricing/Pricing';
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <HeroSection {...homeObjOne} />
       <HeroSection {...homeObjThree} />
       <HeroSection {...homeObjTwo} />
+      <Pricing />
       <HeroSection {...homeObjFour} />
     </>
   )

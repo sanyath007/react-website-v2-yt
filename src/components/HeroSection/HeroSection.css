@@ -14,7 +14,6 @@
   margin-bottom: -15px;
   flex-wrap: wrap;
   align-content: stretch;
-  border: 1px solid red;
 }
 
 .col {
@@ -24,7 +23,6 @@
   flex: 1;
   max-width: 50%;
   flex-basis: 50%;
-  border: 1px solid blue;
 }
 
 .home__hero-text-wrapper {
